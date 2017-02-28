@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>Spring Boot Swagger UI</name>
+    <description>Library containing all static resources for displaying swagger-ui at http://{host}/{context-root}/api-docs </description>
+	
+    <groupId>com.capgemini</groupId>
+    <artifactId>boot-swagger-ui</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+	
+    <distributionManagement>
+        <repository>
+            <id>central</id>
+            <name>Our release repo</name>
+            <url>http://artifactory.capgemini-psdu.com/artifactory/libs-release-local</url>
+        </repository>
+        <!-- Disallow deploy of snapshot versions -->
+    </distributionManagement>
+
+</project>
